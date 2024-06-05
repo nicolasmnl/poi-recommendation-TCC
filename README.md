@@ -1,22 +1,22 @@
-# Sistema de Recomendação de Pontos de Interesse com Uso de Embeddings Geográficos
+# Points of Interest Recommendation System Using Geographic Embeddings
 
-Este repositório contém o código fonte utilizado na pesquisa que propõe e avalia a utilização de embeddings geográficos para aprimorar sistemas de recomendação de Pontos de Interesse (POIs). 
+This repository contains the source code used in research that proposes and evaluates the use of geographic embeddings to improve Points of Interest (POIs) recommendation systems.
 
-## Contexto
+## Context
 
-A recomendação de POIs tem ganhado destaque no contexto de sistemas de recomendação, especialmente com o crescimento de Redes Sociais Baseadas em Localização, como Foursquare, Gowalla e Yelp. A qualidade dessas recomendações é essencial para enriquecer a experiência do usuário nessas plataformas, facilitando a sociabilidade e promovendo o turismo.
+POI recommendation has gained prominence in the context of recommendation systems, especially with the growth of Location-Based Social Networks, such as Foursquare, Gowalla and Yelp. The quality of these recommendations is essential to enrich the user experience on these platforms, facilitating sociability and promoting tourism.
 
-## Problema
+## Problem
 
-Os sistemas tradicionais de recomendação de POIs frequentemente se limitam a considerar informações como avaliações de locais, fotos, horários de acesso e check-ins, negligenciando dados geográficos relevantes, como feições geográficas que incluem rios, edifícios, ruas e lagos no contexto de um POI. Essas feições podem influenciar significativamente as preferências dos usuários.
+Traditional POI recommendation systems are often limited to considering information such as location reviews, photos, access times and check-ins, neglecting relevant geographic data such as geographic features that include rivers, buildings, streets and lakes in the context of a POI. . These features can significantly influence user preferences.
 
-## Solução Proposta
+## Proposed solution
 
-Neste estudo, propomos e avaliamos a utilização de embeddings geográficos que incorporam feições geográficas para aprimorar sistemas de recomendação de POIs. 
+In this study, we propose and evaluate the use of geographic embeddings that incorporate geographic features to improve POI recommendation systems.
 
-## Resultados
+## Results
 
-Os resultados indicaram que o uso dos embeddings que consideram as feições aumentou a acurácia e o MRR em até 1.65% na tarefa de recomendação do próximo POI no conjunto de dados utilizado, em comparação ao baseline, confirmando a importância das feições geográficas para melhorar sistemas de recomendação de POIs.
+The results indicated that the use of embeddings that consider features increased accuracy and MRR by up to 1.65% in the task of recommending the next POI in the dataset used, compared to the baseline, confirming the importance of geographic features to improve geographic features. POI recommendation.
 
 
-OBS: O código ainda está sendo organizado para futuras reproduções
+NOTE: The code is still being organized for future reproductions
